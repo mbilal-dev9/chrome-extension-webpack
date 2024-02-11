@@ -1,0 +1,52 @@
+.landing-page {
+  #{&}__sign-up__form-section {
+    gap: 57px;
+    @media screen and (max-width: 1280px) {
+      gap: 45px;
+    }
+    @media screen and (max-width: 992px) {
+      gap: 39.42px;
+    }
+    @media screen and (max-width: 768px) {
+      gap: 28px;
+    }
+  }
+  #{&}__form {
+    &__field-section {
+      &__name-field-wrapper {
+        display: flex;
+        gap: 24px;
+        @media screen and (max-width: 1280px) {
+          gap: 21px;
+        }
+        @media screen and (max-width: 992px) {
+          gap: 17px;
+        }
+        @media screen and (max-width: 768px) {
+          gap: 13px;
+        }
+      }
+      &--input-field {
+        label {
+         span {
+          font-size: 1rem;
+          font-weight: 400;
+          line-height: 20px;
+          @media screen and (max-width: 1280px) {
+            font-size: .875rem;
+            line-height: 17px;
+          }
+          @media screen and (max-width: 992px) {
+            font-size: .6875rem;
+            line-height: 13px;
+          }
+          @media screen and (max-width: 768px) {
+            font-size: .5625rem;
+            line-height: 11px;
+          }
+         }
+        }
+      }
+    }
+  }
+}
